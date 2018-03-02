@@ -1,0 +1,241 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="30dp">
+        <FrameLayout
+            android:layout_marginTop="?attr/actionBarSize"
+            android:paddingTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.pkmmte.view.CircularImageView
+                android:src="@drawable/logo"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:id="@+id/imga"
+                android:layout_marginTop="0dp"
+                app:border="true"
+                android:layout_gravity="center"
+                app:border_color="#EEEEEE"
+                app:border_width="2dp"
+                app:shadow="true" />
+
+            <ImageView
+                android:src="@mipmap/ic_mode_edit_white_24dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/count_img"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+
+<TextView
+    android:id="@+id/img_update"
+    android:textSize="16dp"
+    android:textColor="#47a447"
+    android:layout_marginTop="10dp"
+    android:text="Update Image"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/uname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/user_name"
+                        android:hint="User Name"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"  />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/fNameLayoutaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/cmail"
+                        android:hint="Email"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"  />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/street"
+                        android:hint="Street"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"  />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/city"
+                        android:hint="City"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"  />
+                </android.support.design.widget.TextInputLayout>
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/visit_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:met_floatingLabel="normal" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/landmark"
+                        android:hint="Landmark"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"  />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:id="@+id/pincode"
+                        android:hint="Pincode"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"  />
+                </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+
+                <!--
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/fNameLayoutaac"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp">
+
+                                    <EditText
+                                        android:id="@+id/current_pass"
+                                        android:hint="Current Password"
+                                        android:inputType="textPassword"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"  />
+                                </android.support.design.widget.TextInputLayout>
+
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/fNameLayoutaaa"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp">
+
+                                    <EditText
+                                        android:id="@+id/pass"
+                                        android:inputType="textPassword"
+                                        android:hint="Password"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"  />
+                                </android.support.design.widget.TextInputLayout>
+                                <android.support.design.widget.TextInputLayout
+                                    android:id="@+id/fNameLayoutaab"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_marginTop="10dp">
+
+                                    <EditText
+                                        android:id="@+id/cpass"
+                                        android:inputType="textPassword"
+                                        android:hint="Confirm Password"
+                                        android:layout_marginLeft="20dp"
+                                        android:layout_marginRight="20dp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"  />
+                                </android.support.design.widget.TextInputLayout>
+                -->
+
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:id="@+id/submit"
+                    android:background="#47a447"
+                    android:textColor="#fff"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="Update Now"/>
+
+            </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

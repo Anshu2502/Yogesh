@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<!--
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/t1"
+        android:layout_weight="2"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_height="0dp" >
+
+        <TableRow
+            android:layout_marginTop="1dp">
+-->
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/t1"
+        android:layout_weight="2"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_height="0dp" >
+
+    <TableRow
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_marginStart="20dp"
+            android:text="Medicine Name"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.5"
+            android:textColor="#180000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_weight="0.1"
+            android:layout_width="0dp"
+            android:gravity="left"
+            android:layout_marginStart="15dp"
+            android:text=":"
+            android:textColor="#180000"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_weight="1.0"
+            android:id="@+id/mname"
+            android:layout_marginStart="15dp"
+            android:text="ayushman healthpluspwder"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#180000"
+            android:textSize="16sp" />
+
+    </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/namea"
+                android:layout_marginStart="20dp"
+                android:text="Quantity"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:id="@+id/mquantity"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:gravity="left"
+                android:layout_marginStart="10dp"
+                android:text=""
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/nameb"
+                android:layout_marginStart="20dp"
+                android:text="Medicine Price"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/mprice"
+                android:text="Total"
+                android:layout_width="match_parent"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+<!--
+        <TableRow
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/namec"
+                android:layout_marginStart="20dp"
+                android:text="GST Charge"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:id="@+id/mgst"
+                android:text="10%"
+                android:layout_width="match_parent"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+        </TableRow>
+-->
+
+        <TableRow
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/named"
+                android:layout_marginStart="20dp"
+                android:text="Total"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:gravity="left"
+                android:id="@+id/final_price"
+                android:text="Final Total"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#47a447"/>
+
+ <!--       </TableRow>
+
+    </TableLayout>-->
+</LinearLayout>

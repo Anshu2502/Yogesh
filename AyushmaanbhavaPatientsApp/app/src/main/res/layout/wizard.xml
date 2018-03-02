@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:background="#47a447"
+        android:textColor="#fff"
+        android:gravity="center_horizontal"
+        android:text="Registration Step 1 of 4"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="20dp"/>
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#47a447"
+        android:layout_above="@+id/wizard_button_bar"/>
+
+    <!-- Layout for wizard controls -->
+    <LinearLayout
+        android:id="@+id/wizard_button_bar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:textColor="#fff"
+            android:background="#47a447"
+            android:id="@+id/wizard_previous_button"
+            android:text="@string/action_previous"
+            android:enabled="false"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            />
+        <Button
+            android:background="#47a447"
+            android:textColor="#fff"
+            android:id="@+id/wizard_next_button"
+            android:text="@string/action_next"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+    <!--
+            **********************************************************************
+            **You MUST have this ViewPager as the container for wizard's steps  **
+            **********************************************************************
+    -->
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/textView"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@id/step_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/horizontal_line"/>
+
+</RelativeLayout>

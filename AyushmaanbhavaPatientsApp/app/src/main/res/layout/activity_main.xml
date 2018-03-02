@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:id="@+id/ivPic"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="10dp"
+        android:background="#47a447"
+        android:padding="12dp"
+        android:text="Login"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="#47a447"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonRegister"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#47a447"
+        android:padding="12dp"
+        android:text="Register"
+        android:textColor="#fff" />
+    <TextView
+        android:id="@+id/orr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:textColor="#47a447"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonnumberchange"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="10dp"
+        android:background="#47a447"
+        android:padding="12dp"
+        android:text="Change Number"
+        android:textColor="#fff" />
+</LinearLayout>

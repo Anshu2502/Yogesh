@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="#ffffff"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/blood_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appoint Type"
+            android:textSize="@dimen/add_edit_textsize"/>
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/android_material_design_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="normal" />
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnLLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp">
+
+            <EditText
+                android:id="@+id/dob"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.6"
+                android:hint="Appointment Date" />
+
+            <ImageButton
+                android:id="@+id/b_dob"
+                android:layout_width="0dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/ic_date_range_white_24dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:background="#47a447"/>
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/visittype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit Type"
+            android:textSize="@dimen/add_edit_textsize"/>
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/visit_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="normal" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/get_doc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Department"
+            android:textSize="@dimen/add_edit_textsize"/>
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/select_doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:met_floatingLabel="normal" />
+        <EditText
+            android:id="@+id/note"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Visit Reason"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="4"
+            android:gravity="top|left"
+            android:maxLines="10"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:scrollbars="vertical" />
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#47a447"
+            android:textAlignment="center"
+            android:id="@+id/dateess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:text="* Please Upload Your New and old test report before appointment date" />
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#47a447"
+            android:textAlignment="center"
+            android:id="@+id/datess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="left"
+            android:text="** Next Appointment Will set after 15 days of previous appointment" />
+
+ <!--
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="#47a447"
+            android:textAlignment="center"
+            android:id="@+id/noti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Next Appointment Will set after 15 days of previous appointment" />
+-->
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonappoint"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="10dp"
+            android:background="#47a447"
+            android:padding="12dp"
+            android:text="Book Appointment"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+</ScrollView>

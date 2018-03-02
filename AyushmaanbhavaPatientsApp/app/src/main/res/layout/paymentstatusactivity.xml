@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pstatuss"
+            android:text="Payment Status"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:id="@+id/t1"
+        android:layout_weight="2"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_height="0dp" >
+
+
+
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/txi"
+                android:layout_marginStart="20dp"
+                android:text="Transaction Id"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_weight="1.0"
+                android:width="0dp"
+                android:gravity="left"
+                android:id="@+id/u_txn"
+                android:text="Not Defines"
+                android:layout_width="0dp"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_marginStart="20dp"
+                android:text="Appointment Date"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_weight="1.0"
+                android:width="0dp"
+                android:gravity="left"
+                android:id="@+id/a_date"
+                android:text="Not Defines"
+                android:layout_width="0dp"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/app"
+                android:layout_marginStart="20dp"
+                android:text="Appointment Type"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_weight="1.0"
+                android:width="0dp"
+                android:gravity="left"
+                android:id="@+id/u_appoint_type"
+                android:text="Not Defines"
+                android:layout_width="0dp"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/vtype"
+                android:layout_marginStart="20dp"
+                android:text="Visit Type"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_weight="1.0"
+                android:width="0dp"
+                android:gravity="left"
+                android:id="@+id/u_visit_type"
+                android:text="Not Defines"
+                android:layout_width="0dp"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+
+
+<!--
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_marginStart="20dp"
+                android:text="User Id"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_weight="1.0"
+                android:width="0dp"
+                android:gravity="left"
+                android:id="@+id/u_id"
+                android:text="Not Defines"
+                android:layout_width="0dp"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+-->
+
+
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_marginStart="20dp"
+                android:text="User Name"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_weight="1.0"
+                android:width="0dp"
+                android:gravity="left"
+                android:id="@+id/u_name"
+                android:text="Not Defines"
+                android:layout_width="0dp"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/mail"
+                android:layout_marginStart="20dp"
+                android:text="User Mail"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_weight="1.0"
+                android:width="0dp"
+                android:gravity="left"
+                android:id="@+id/u_mail"
+                android:text="Not Defines"
+                android:layout_width="0dp"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_marginStart="20dp"
+                android:text="User Number"
+                android:gravity="left"
+                android:layout_width="0dp"
+                android:layout_weight="0.9"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_weight="0.1"
+                android:layout_width="0dp"
+                android:gravity="left"
+                android:layout_marginStart="15dp"
+                android:text=":"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_weight="1.0"
+                android:width="0dp"
+                android:gravity="left"
+                android:id="@+id/u_number"
+                android:text="Not Defines"
+                android:layout_width="0dp"
+                android:textColor="#180000"
+                android:textSize="16dp" />
+
+        </TableRow>
+
+
+
+
+
+    </TableLayout>
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:id="@+id/done"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="20dp"
+        android:background="#47a447"
+        android:padding="12dp"
+        android:text="Back To Home"
+        android:textColor="#fff" />
+
+
+</LinearLayout>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:focusableInTouchMode="true"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:id="@+id/buttonappoint"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="20dp"
+        android:background="#47a447"
+        android:padding="12dp"
+        android:text="AppointMents"
+        android:textColor="#fff" />
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:id="@+id/buttonleave"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="20dp"
+        android:background="#47a447"
+        android:padding="12dp"
+        android:text="Take Leave"
+        android:textColor="#fff" />
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:id="@+id/buttonprofile"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="20dp"
+        android:background="#47a447"
+        android:padding="12dp"
+        android:text="Profile"
+        android:textColor="#fff" />
+
+</LinearLayout>

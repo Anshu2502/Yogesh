@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:title="Profile"
+            android:icon="@mipmap/ic_person_black_24dp"/>
+        <item
+            android:id="@+id/home"
+            android:title="Book Appointment"
+            android:icon="@mipmap/ic_chrome_reader_mode_black_24dp"/>
+
+        <item
+            android:id="@+id/appointment"
+            android:title="All Appointments"
+            android:icon="@mipmap/ic_subject_black_24dp"/>
+        <item
+            android:id="@+id/prescript_detail"
+            android:title="Prescription Details"
+            android:icon="@mipmap/ic_assignment_black_24dp"/>
+
+        <item
+            android:id="@+id/invoice"
+            android:title="Invoice"
+            android:icon="@mipmap/ic_description_black_24dp"/>
+        <item
+            android:id="@+id/enquiry"
+            android:title="Doctor Chat"
+            android:icon="@mipmap/ic_speaker_notes_black_24dp"/>
+        <item
+            android:id="@+id/blog"
+            android:title="Notification"
+            android:icon="@mipmap/ic_art_track_black_24dp"/>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@mipmap/ic_input_white_24dp"/>
+
+    </group>
+</menu>
